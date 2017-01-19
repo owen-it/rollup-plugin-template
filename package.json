@@ -1,0 +1,38 @@
+{
+  "name": "rollup-plugin-template",
+  "version": "1.0.9",
+  "description": "Converts html files to template modules",
+  "main": "dist/rollup-plugin-template.js",
+  "jsnext:main": "dist/rollup-plugin-template.mjs",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "test": "mocha test/*.js --compilers js:buble/register",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "template"
+  ],
+  "author": "Antério Vieira <anteriovieira@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen-it/rollup-plugin-template.git"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^1.5.0",
+    "html-minifier": "^3.2.3"
+  },
+  "devDependencies": {
+    "buble": "^0.15.2",
+    "mocha": "^3.2.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
