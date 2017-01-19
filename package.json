@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-template",
   "version": "1.0.9",
-  "description": "Converts html files to template modules",
+  "description": "Rollup plugin for import template HTML.",
   "main": "dist/rollup-plugin-template.js",
   "jsnext:main": "dist/rollup-plugin-template.mjs",
   "scripts": {
