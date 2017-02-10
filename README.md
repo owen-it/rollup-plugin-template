@@ -1,4 +1,4 @@
-# rollup-plugin-template [![Build Status](https://travis-ci.org/anteriovieira/rollup-plugin-template.svg)](https://travis-ci.org/anteriovieira/rollup-plugin-template)
+# rollup-plugin-template [![Build Status](https://travis-ci.org/owen-it/rollup-plugin-template.svg)](https://travis-ci.org/owen-it/rollup-plugin-template)
 
 Rollup plugin for import template HTML.
 
