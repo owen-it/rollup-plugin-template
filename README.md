@@ -1,4 +1,4 @@
-# rollup-plugin-template [![Build Status](https://travis-ci.org/owen-it/rollup-plugin-template.svg)](https://travis-ci.org/owen-it/rollup-plugin-template)
+# rollup-plugin-template [![npm package](https://img.shields.io/npm/v/rollup-plugin-template.svg)](https://www.npmjs.com/package/rollup-plugin-template)
 
 Rollup plugin for import template HTML.
 
@@ -26,4 +26,4 @@ rollup({
 
 ## License
 
-MIT
+[MIT](LICENSE.md)
