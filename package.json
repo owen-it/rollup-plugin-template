@@ -7,8 +7,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c --watch",
-    "test": "mocha test/*.js --compilers js:buble/register",
-    "prepublish": "npm test"
+    "test": "mocha test/*.js --compilers js:buble/register"
   },
   "files": [
     "dist"
@@ -25,7 +24,7 @@
     "url": "git+https://github.com/owen-it/rollup-plugin-template.git"
   },
   "dependencies": {
-    "rollup-pluginutils": "^1.5.0",
+    "rollup-pluginutils": "^2.0.1",
     "html-minifier": "^3.2.3"
   },
   "devDependencies": {
